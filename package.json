@@ -1,0 +1,20 @@
+{
+  "name": "week-10-assignment",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://github.com/Ethanf25/Week-10-Assignment#readme",
+  "bugs": {
+    "url": "https://github.com/Ethanf25/Week-10-Assignment/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ethanf25/Week-10-Assignment.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "indx.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
