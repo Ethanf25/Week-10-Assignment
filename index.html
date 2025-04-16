@@ -5,15 +5,75 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Week 10</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" 
+    rel="stylesheet" integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" 
+    crossorigin="anonymous"/>
+
     <script src="./index.js"></script>
-    <h1>Week 10</h1>
- 
+
 </head>
 <body>
+<!-- Bootstrap table with dark theme -->
+<table class="table table-dark">
+    <!-- Table header section -->
+    <thead id="tHead">
+        <th>#</th> <!-- Column for row numbers -->
+        <th>First</th> <!-- Column for first names -->
+        <th>Last</th> <!-- Column for last names -->
+        <th>Favorite Color</th> <!-- Column for favorite colors -->
+    </thead>
+    <tbody id="tBody"> <!-- Body of the table where rows will be added -->
+        <tr>
+            <td>0</td> <!-- Row number of the first row -->
+            <td>Ethan</td> <!-- First name of the first row -->
+            <td>Friend</td> <!-- Last name of the first row -->
+            <td>Red</td> <!-- Favorite color of the first row -->
+        </tr>
+    </tbody>
+</table> <!-- End of table -->
 
-    <table></table>
-    <form> </form>
+<!-- Form for adding new table rows -->
+<form>
+    <!-- First name input group -->
+    <div>
+        <label for="firstName" class="form-label">First Name</label> <!-- this shows the label for the first name -->
+        <input type="text" class="form-control" id="firstName"/> <!-- this line represents the Input field for the first name -->
+    </div>
+    <!-- Below is the Last name input group -->
+    <div>
+        <label for="lastName" class="form-label">Last Name</label> <!-- this line defines the label for last name -->
+        <input type="text" class="form-control" id="lastName"/> <!-- this line represents the Input field for the last name -->
+    </div>
+    <!-- Favorite color input group -->
+    <div>
+        <label for="favoriteColor" class="form-label">Favorite Color</label> <!-- this is the label for favorite color -->
+        <input type="text" class="form-control" id="favoriteColor"/> <!-- this line represents the input field for favorite color -->
+    </div>
 
+    <button type="submit" class="btn btn-primary" id="formSubmit">Submit</button> <!-- Submit button with Bootstrap primary styling -->
+
+</form> <!-- End of form -->
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
 </body>
 </html>
 
